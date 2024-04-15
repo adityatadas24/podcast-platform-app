@@ -1,0 +1,34 @@
+.banner-image{
+    width: 85vw;
+    height: 45vh;
+  object-fit: cover;
+  border-radius: 30px;
+    
+}
+
+
+.podcast-image-banner{
+    width: 85vw;
+    height: 45vh;
+    padding: 10px;
+    background-color: #24163e;
+    border-radius: 12px;
+
+}
+
+.desc-podcast{
+    text-align: justify;
+    width: 85vw;
+    color: var(--purple-gray);
+    margin-top: 30px;
+}
+
+.profile{
+    text-align: start;
+    width: 70vw;
+}
+.profile span{
+   font-size:18px;
+   font-weight: 500;
+   color:rgb(152, 130, 194);
+}

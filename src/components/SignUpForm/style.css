@@ -1,0 +1,16 @@
+.input-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh !important;
+    text-align: center;
+    width: 95vw;
+
+}
+
+.accounts{
+    cursor: pointer;
+}
+.accounts span{
+    color: var(--blue);
+}

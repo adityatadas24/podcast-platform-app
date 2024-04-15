@@ -1,0 +1,46 @@
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   padding: 1.5rem;
+
+}
+
+ .links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+
+ }
+
+ .gradient{
+    position: absolute;
+    width: 50vw;
+    height: 150px;
+    top: -100px;
+    margin: auto;
+    background-color: var(--blue);
+    filter: blur(100px);
+    z-index: -1;
+ }
+
+ .links a{
+    color: rgb(183, 179, 179);
+   text-decoration: none;
+ font-weight: 500;
+ font-size: 18px;
+ }
+
+ .links a:hover{
+    color: var(--white);
+    transition: all 0.3s;
+    font-size: 20px;
+ }
+ 
+
+ .active{
+    color: var(--white) !important;
+    font-size: 23px !important;
+    font-weight: 600 !important;
+ }

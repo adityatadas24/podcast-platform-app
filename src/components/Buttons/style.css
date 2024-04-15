@@ -1,0 +1,19 @@
+.signup-btn{
+    background-color: var(--white) !important;
+    text-decoration: none;
+    width: 51.3vw;
+    height: 60px;
+    color: var(--black) !important;
+    border: 2px solid white;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.signup-btn:hover{
+    background-color: transparent !important;
+    color: var(--white) !important;
+}
